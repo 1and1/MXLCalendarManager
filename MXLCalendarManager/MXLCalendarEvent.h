@@ -111,7 +111,7 @@ typedef enum {
 
 -(NSDate *)dateFromString:(NSString *)dateString;
 
--(void)parseRules:(NSString *)rule
+-(void)parseRules:(NSString *)ruleString
           forType:(MXLCalendarEventRuleType)type;
 
 -(BOOL)checkDay:(NSInteger)day
